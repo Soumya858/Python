@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	min-height: 100vh;
+	.img-bg{
+
+	
+	background: url('.members/static/img/pxfuel.jpg')no-repeat;
+	background-position: cover;
+	background-size: cover;
+}
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+div.main{
+	width: 400px;
+	margin: 100px auto 0px auto;
+}
+div.register{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+	color: #fff;
+}
+form#register{
+	margin: 40px;
+}
+label{
+	font-size: 18px;
+	font-style: italic;
+}
+input#name{
+	width: 300px;
+	border: 1px solid;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+.btn{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.btn button{
+	flex-basis: 48%;
+	background: #3c00a0;
+	color: #fff;
+	height: 40px;
+	border-radius: 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: background 1s;
+}
